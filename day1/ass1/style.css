@@ -1,0 +1,36 @@
+
+/* box model
+    border => thickness, style, color
+    padding => space insode the border
+    marign => space outside the border
+*/
+
+.bg{
+    background-color: rgb(55, 241, 164);
+    width: 500px;
+    border: 1px solid white;
+    padding: 120px 40px;
+    margin: 100px auto;
+    border-radius: 10px;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+
+.h1{
+    font-size: 40px;
+    margin: 0px;
+}
+
+.para{
+    font-weight: 500;
+}
+
+.btn{
+    width: 50%;
+    background-color: white;  
+    border: 1px solid white;
+    padding: 16px 40px;
+    margin-top: 15px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+}
